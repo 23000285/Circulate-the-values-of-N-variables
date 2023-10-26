@@ -14,10 +14,23 @@ Get the value from the user for the number of rotation
 ### Step 4: 
 Using the slicing concept rotate the list
 ### Step 5: 
-
+After rotating the variables, store the rotated variables in a seperate list
 ### Step 6: 
+At last, print the list of rotated variables
 ## Program:
+```
+#Program to circulate N values.
+#Developed by: VENKATANATHAN P R
+#RegisterNumber: 23000285
+def circulate():
+    l=eval(input())
+    n=int(input())
+    out=l[n:]+l[:n]
+    print("After circulating the values are:",out)
+```
 
 ## Output:
+![image](https://github.com/23000285/Circulate-the-values-of-N-variables/assets/138970859/9898d002-3b96-4e26-b2fc-e1aee770f7a9)
 
 ## Result:
+Thus the python program to circulate the n variable using function concept is successfully executed.
